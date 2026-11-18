@@ -1,0 +1,48 @@
+{
+  "coordinate_system": {
+    "axes": ["x", "y"],
+    "unit": "tiles"
+  },
+  
+  "zones": {
+    "description": "x and y coordinates represents the position of the first poligon dot, and the rest of the dots are defined by the vertex offsets plus the origin. For circles, the origin is the center of the circle.",
+    "zone_a": {
+      "name": "Zone A",
+      "shape": "polygon",
+      "origin": {
+        "x": 3,
+        "y": 2
+    
+      },
+      
+      "vertex_offsets": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 0
+        }
+      ]
+    },
+    "zone_b": {
+      "name": "Zone B",
+      "shape": "circle",
+      "origin": {
+        "x": 5,
+        "y": 5
+      },
+     
+      "radius": 3
+    }
+  }
+}
